@@ -1,0 +1,12 @@
+# Bandit 12 → 13
+
+## Goal
+
+The password is stored in `data.txt`, but the file has been repeatedly compressed and archived.
+
+The file must be **decompressed/extracted multiple times** until the password is revealed.
+
+## Step 1 — Create a working copy
+
+```bash
+cp data.txt /tmp/data
