@@ -1,0 +1,8 @@
+# Bandit 19 → 20
+
+## Goal
+
+The home directory contains a setuid binary called:
+
+```bash
+bandit20-do
