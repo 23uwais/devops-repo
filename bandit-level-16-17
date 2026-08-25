@@ -1,0 +1,17 @@
+# Bandit 16 → 17
+
+## Goal
+
+Find the correct service among several ports on `localhost`.
+
+The correct service:
+- Uses SSL/TLS
+- Accepts the current Bandit 16 password
+- Gives you an SSH private key for Bandit 17
+
+## Step 1 — Scan the ports
+
+Use `nmap`:
+
+```bash
+nmap -sV -p 31000-32000 localhost
