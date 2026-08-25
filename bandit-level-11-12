@@ -1,0 +1,12 @@
+# Bandit 11 → 12
+
+## Goal
+
+The password for the next level is stored in `data.txt`.
+
+The data is encoded using **ROT13**.
+
+## Command
+
+```bash
+cat data.txt
