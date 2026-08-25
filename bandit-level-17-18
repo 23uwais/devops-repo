@@ -1,0 +1,8 @@
+# Bandit 17 → 18
+
+## Goal
+
+There are two files in the home directory:
+
+```bash
+ls
