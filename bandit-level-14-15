@@ -1,0 +1,14 @@
+# Bandit 13 → 14
+
+## Goal
+
+The password for the next level is stored in `/etc/bandit_pass/bandit14`.
+
+However, you **cannot simply read it** because it is only readable by `bandit14`.
+
+Instead, you are given an **SSH private key** that allows you to log in as `bandit14`.
+
+## Step 1 — Find the private key
+
+```bash
+ls
