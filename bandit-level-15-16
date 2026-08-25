@@ -1,0 +1,10 @@
+# Bandit 14 → 15
+
+## Goal
+
+The password for the next level can be submitted to a service running on **localhost port 30000**.
+
+The current level's password is stored in:
+
+```bash
+/etc/bandit_pass/bandit14
